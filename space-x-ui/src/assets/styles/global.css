@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+/* import font awesome */
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+/* date picker */
+@import "~flatpickr/dist/flatpickr.min.css";
+
+/* set up tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+.wrapper {
+  padding: 0 2rem;
+}
+
+.landing-bg {
+  background-image: url(../images/landing-bg.jpg);
+  background-size: cover;
+}
